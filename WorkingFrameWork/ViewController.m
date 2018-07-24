@@ -1302,7 +1302,7 @@ NSString * param_Name = @"Param";
                     }
                     else
                     {
-                        //发送reset，让气缸复位
+                        //发送reset，让气缸复位,门打开------
                         [serialport WriteLine:@"reset"];
                     
                         [self UpdateTextView:@"index=105,向串口发送reset指令！\n" andClear:NO andTextView:Log_View];
