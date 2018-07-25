@@ -41,7 +41,7 @@ NSString * param_Name = @"Param";
     FileTXT  * file_txt;
     Plist * plist;
     Param * param;
-    SerialPort *   serialport;        //控制板类
+    SerialPort *   serialport;        //控制板类--
     SerialPort *   humiturePort;      //温湿度控制类
     NSArray    *   itemArr1;
     NSArray    *   itemArr2;
