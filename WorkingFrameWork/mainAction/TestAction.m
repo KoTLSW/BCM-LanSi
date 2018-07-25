@@ -58,7 +58,7 @@ NSString  *param_path=@"Param";
     
     AppDelegate  * app;                                       //存储测试的次数
     Folder       * fold;                                      //文件夹的类
-    FileCSV      * csv_file;                                  //csv文件的类
+    FileCSV      * csv_file;                                  //csv文件的类／／／／／
     FileCSV      * total_file;                                //写csv总文件
     FileTXT      * txt_file;                                  //txt文件
     
